@@ -1,13 +1,21 @@
 ## Web Templates
 
-This project contains file with HTML / CSS code snippets for various web design applications. 
+This project contains files with HTML / CSS code snippets for various web design applications. 
+
+## Table of Contents
 
 ## Software / Frameworks used
 
-Bootstrap https: //getbootstrap.com
+Bootstrap https://getbootstrap.com
 
-Sass https: //sass-lang.com/guide
+Materialize Css https://materializecss.com/
 
-Google fonts: https://fonts.google.com/
+Sass https://sass-lang.com/guide
 
-Jinja Templating engine: http://jinja.pocoo.org/
+Google fonts https://fonts.google.com/
+
+Jinja Templating engine http://jinja.pocoo.org/
+
+Font Awesome Icons https://fontawesome.com/icons
+
+Materializecss Icons https://materializecss.com/icons.html
