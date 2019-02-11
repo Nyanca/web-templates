@@ -1,0 +1,78 @@
+html,
+body {
+    height: 100%;
+}
+
+.notice-box {
+    margin: 2vw;
+    padding: 1vw;
+    color: #33FFCC;
+    text-shadow: 0.05vw 0.05vw #3399CC;
+    text-align: center;
+}
+
+/*images & media*/
+
+.tile-box {
+    width: 25%;
+    padding-bottom: 25%;
+    background: #00F;
+    color: #FFF;
+    position: relative;
+}
+
+.inner-tile-box {
+    position: absolute;
+    left: 0.1vw;
+    right: 0.1vw;
+    top: 0.1vw;
+    bottom: 0.1vw;
+    background: #66F;
+}
+
+.tile-image {
+    display: block;
+    height: auto;
+}
+
+.tile-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.tile-container:hover .tile-overlay {
+    height: 100%;
+}
+
+.tile-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*special styles / paddings / borders*/
+
+.spacer {
+    padding: 3vw;
+}
+
+.p-spacer {
+    padding: 1.5vw;
+}
+
+.text-center {
+    text-align: center;
+}
