@@ -27,7 +27,6 @@ body {
 }
 
 /*special styles / paddings / borders*/
-
 .spacer {
     padding: 3vw;
 }
@@ -38,4 +37,15 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+/*-----colours*/
+.blue-background{
+    background-image: linear-gradient(to right, #66FF99, #66FFCC);
+    background-size: cover;
+    padding: 5vw;
+}
+
+.form2{
+    background-color: transparent;
 }
